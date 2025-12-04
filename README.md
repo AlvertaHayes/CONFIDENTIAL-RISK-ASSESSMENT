@@ -7,6 +7,7 @@
 A comprehensive FHEVM example demonstrating privacy-preserving risk assessment with encrypted data, access control, and public decryption patterns. This project serves as both a functional application and an educational resource for developers learning FHEVM concepts.
 
 Live Demo: https://confidential-risk-assessment-f15r.vercel.app/
+
 Video: https://streamable.com/quwe1c  ConfidentialRiskAssessment.mp4
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
