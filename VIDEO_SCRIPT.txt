@@ -1,0 +1,39 @@
+CONFIDENTIAL RISK ASSESSMENT - ONE MINUTE SCRIPT
+
+---OPENING---
+
+Today, we're introducing Confidential Risk Assessment: a privacy-preserving financial evaluation platform powered by Fully Homomorphic Encryption.
+
+---PROBLEM---
+
+Financial institutions need to assess applicants for credit, loans, and investments. But traditional systems require accessing sensitive personal data. This creates privacy risks and regulatory compliance challenges.
+
+---SOLUTION---
+
+With FHEVM, applicants submit encrypted financial information: credit scores, income, employment history, and debt ratios. The system evaluates everything while data remains encrypted throughout the entire process.
+
+---KEY FEATURES---
+
+First: Encryption at Submission - All data is encrypted before leaving the user's wallet.
+
+Second: Encrypted Evaluation - The contract performs computations on encrypted values without decrypting them.
+
+Third: Secure Decryption - Results are only decrypted through an oracle callback with cryptographic verification.
+
+Fourth: Access Control - Explicit permission management ensures only authorized entities access encrypted data.
+
+---USE CASES---
+
+This enables compliance-friendly credit scoring, anonymous loan applications, and decentralized risk pools where privacy is guaranteed.
+
+---TECHNICAL HIGHLIGHTS---
+
+The implementation demonstrates core FHEVM concepts: encrypted data types like euint16 and euint32, proper access control patterns, time-based restrictions, batch processing, and oracle integration for decryption callbacks.
+
+---CLOSING---
+
+All code is production-ready with over fifty comprehensive tests, automated documentation generation, and scaffolding tools for creating new FHEVM examples.
+
+Financial privacy is no longer a trade-off. It's the standard.
+
+---END---
